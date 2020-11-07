@@ -1,6 +1,6 @@
 void setup()
 {
-	noLoop();
+	noLoop(); 
 }
 void draw()
 {
