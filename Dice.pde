@@ -146,14 +146,12 @@ class Die
   {
    fill(0);
    circle(orang+30, helloEdSheeran+30, 10); 
-   yong = yong + 1;
   }
   void er()
   {
    fill(0);
    circle(orang+20, helloEdSheeran+20, 10);
    circle(orang+40, helloEdSheeran+40, 10);
-   yong = yong + 2;
   }
   void san()
   {
@@ -161,7 +159,6 @@ class Die
    circle(orang+30, helloEdSheeran+30, 10);
    circle(orang+30, helloEdSheeran+10, 10); 
    circle(orang+30, helloEdSheeran+50, 10);
-   yong += 3;
   }
   void si()
   {
@@ -170,7 +167,6 @@ class Die
    circle(orang+40, helloEdSheeran+20, 10);
    circle(orang+20, helloEdSheeran+20, 10);
    circle(orang+40, helloEdSheeran+40, 10);
-   yong += 4;
   }
   void wu()
   {
@@ -180,7 +176,6 @@ class Die
    circle(orang+40, helloEdSheeran+20, 10);
    circle(orang+20, helloEdSheeran+20, 10);
    circle(orang+40, helloEdSheeran+40, 10);
-   yong += 5;
   }
   void liu()
   {
@@ -191,6 +186,5 @@ class Die
    circle(orang+40, helloEdSheeran+30, 10);
    circle(orang+40, helloEdSheeran+10, 10); 
    circle(orang+40, helloEdSheeran+50, 10);
-   yong += 6;
   }
 }
