@@ -1,3 +1,4 @@
+
 void setup()
 {
   noLoop(); 
@@ -145,46 +146,46 @@ class Die
   void yi()
   {
    fill(0);
-   circle(orang+30, helloEdSheeran+30, 10); 
+   ellipse(orang+30, helloEdSheeran+30, 10, 10); 
   }
   void er()
   {
    fill(0);
-   circle(orang+20, helloEdSheeran+20, 10);
-   circle(orang+40, helloEdSheeran+40, 10);
+   ellipse(orang+20, helloEdSheeran+20, 10, 10);
+   ellipse(orang+40, helloEdSheeran+40, 10, 10);
   }
   void san()
   {
   fill(0);
-   circle(orang+30, helloEdSheeran+30, 10);
-   circle(orang+30, helloEdSheeran+10, 10); 
-   circle(orang+30, helloEdSheeran+50, 10);
+   ellipse(orang+30, helloEdSheeran+30, 10, 10);
+   ellipse(orang+30, helloEdSheeran+10, 10, 10); 
+   ellipse(orang+30, helloEdSheeran+50, 10, 10);
   }
   void si()
   {
    fill(0);
-   circle(orang+20, helloEdSheeran+40, 10);
-   circle(orang+40, helloEdSheeran+20, 10);
-   circle(orang+20, helloEdSheeran+20, 10);
-   circle(orang+40, helloEdSheeran+40, 10);
+   ellipse(orang+20, helloEdSheeran+40, 10, 10);
+   ellipse(orang+40, helloEdSheeran+20, 10, 10);
+   ellipse(orang+20, helloEdSheeran+20, 10, 10);
+   ellipse(orang+40, helloEdSheeran+40, 10, 10);
   }
   void wu()
   {
     fill(0);
-    circle(orang+30, helloEdSheeran+30, 10); 
-   circle(orang+20, helloEdSheeran+40, 10);
-   circle(orang+40, helloEdSheeran+20, 10);
-   circle(orang+20, helloEdSheeran+20, 10);
-   circle(orang+40, helloEdSheeran+40, 10);
+    ellipse(orang+30, helloEdSheeran+30, 10, 10); 
+   ellipse(orang+20, helloEdSheeran+40, 10, 10);
+   ellipse(orang+40, helloEdSheeran+20, 10, 10);
+   ellipse(orang+20, helloEdSheeran+20, 10, 10);
+   ellipse(orang+40, helloEdSheeran+40, 10, 10);
   }
   void liu()
   {
     fill(0);
-   circle(orang+20, helloEdSheeran+30, 10);
-   circle(orang+20, helloEdSheeran+10, 10); 
-   circle(orang+20, helloEdSheeran+50, 10);
-   circle(orang+40, helloEdSheeran+30, 10);
-   circle(orang+40, helloEdSheeran+10, 10); 
-   circle(orang+40, helloEdSheeran+50, 10);
+   ellipse(orang+20, helloEdSheeran+30, 10, 10);
+   ellipse(orang+20, helloEdSheeran+10, 10, 10); 
+   ellipse(orang+20, helloEdSheeran+50, 10, 10);
+   ellipse(orang+40, helloEdSheeran+30, 10, 10);
+   ellipse(orang+40, helloEdSheeran+10, 10, 10); 
+   ellipse(orang+40, helloEdSheeran+50, 10, 10);
   }
 }
