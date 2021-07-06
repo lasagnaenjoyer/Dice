@@ -16,7 +16,7 @@ void draw()
   Die monkey = new Die(orang, helloEdSheeran);
   monkey.show();
   monkey.roll();
-  if (monkey.xiaojun == true) 
+  if (monkey.IMCRYING == true) 
   {
     tyong++;
   }
@@ -56,7 +56,7 @@ class Die
 {
   int orang, helloEdSheeran, doie;
   public int yong;
-  boolean xiaojun;
+  boolean IMCRYING;
   boolean jaehyun;
   boolean chenle;
   boolean awooga;
@@ -74,7 +74,7 @@ class Die
     if (doie == 1)
     {
       yi();
-      xiaojun = true;
+      IMCRYING = true;
       chenle = false;
       jaehyun = false;
       gowonFromLoona = false;
@@ -86,7 +86,7 @@ class Die
       er();
       jaehyun = true;
       chenle = false;
-      xiaojun = false;
+      IMCRYING = false;
       gowonFromLoona = false;
       awooga = false;
       oooOooAaaAaa = false;
@@ -95,7 +95,7 @@ class Die
     {
       san();
       chenle = true;
-      xiaojun = false;
+      IMCRYING = false;
       jaehyun = false;
       gowonFromLoona = false;
       awooga = false;
@@ -106,7 +106,7 @@ class Die
       si();
       awooga = true;
       chenle = false;
-      xiaojun = false;
+      IMCRYING = false;
       jaehyun = false;
       gowonFromLoona = false;
       oooOooAaaAaa = false;
@@ -116,7 +116,7 @@ class Die
       wu();
       gowonFromLoona = true;
       chenle = false;
-      xiaojun = false;
+      IMCRYING = false;
       jaehyun = false;
       awooga = false;
       oooOooAaaAaa = false;
@@ -126,7 +126,7 @@ class Die
       liu();
       oooOooAaaAaa = true;
       chenle = false;
-      xiaojun = false;
+      IMCRYING = false;
       jaehyun = false;
       gowonFromLoona = false;
       awooga = false;
